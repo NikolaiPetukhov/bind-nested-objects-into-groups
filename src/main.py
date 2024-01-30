@@ -2,7 +2,9 @@ import supervisely as sly
 from supervisely.app.widgets import Container
 import src.ui as ui
 
+from supervisely.sly_logger import logger
 
+logger.info(None)
 layout = Container(
     widgets=[
         ui.thumbnail_card,
